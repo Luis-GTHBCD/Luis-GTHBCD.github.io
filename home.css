@@ -85,13 +85,20 @@ html::-webkit-scrollbar-thumb{
 }
 
 .cabecalho .logo{
-    display: inline-flex;
+    display: flex;
     align-items: center;
     font-weight: 600;
     font-size: 22px;
 }
 
-
+.frase {
+    background: linear-gradient(to right, #90EE90, #006400); 
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
 .icones div{
     color: #000000;
     cursor: pointer;
