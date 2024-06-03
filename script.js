@@ -1,5 +1,5 @@
 const navbar = document.querySelector(".navbar");
 
-document.querySelector("#menu-btn").onclick = () => {
+document.querySelector("#toggle-btn").onclick = () => {
   navbar.classList.toggle("active");
 };
