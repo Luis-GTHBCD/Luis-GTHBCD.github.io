@@ -11,6 +11,8 @@
 
 :root {
   --color: #d8ad3f;
+  /* --color: #ffb700; */
+  /* --color: #ad3f; */
   --black: #13131a;
   --background: #010103;
   --white: #fff;
@@ -540,6 +542,7 @@ a {
   section {
     padding: 2rem;
   }
+
   .header {
     padding: 1.5rem 2rem;
   }
